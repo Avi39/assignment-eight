@@ -4,11 +4,11 @@ const Header = () => {
     return (
         <div className='header'>
             <h2>Avi's Cafe</h2>
-            <div>
-            <a href="/all blogs">all blogs</a>
+            <nav>
+            <a href="/all blogs">blogs</a>
             <a href="/authors">authors</a>
-            <a href="/blog date">blog date</a>
-            </div> 
+            <a href="/blog date">blog-date</a>
+            </nav> 
         </div>
     );
 };
