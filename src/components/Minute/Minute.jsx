@@ -7,8 +7,8 @@ const Minute = ({minute}) => {
         totalTime = totalTime + time.time;
     }
     return (
-        <div>
-            <h2>Spent time on read:{totalTime}</h2>
+        <div className='minute'>
+            <h2 style={{color:'#6047EC'}}>Spent time on read:{totalTime}</h2>
         </div>
     );
 };

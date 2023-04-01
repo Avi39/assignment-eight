@@ -1,5 +1,7 @@
 import React from 'react';
-import './Cart.css'
+import './Cart.css';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 const Cart = ({cart}) => {
     let total =[];
     
@@ -8,7 +10,7 @@ const Cart = ({cart}) => {
     }
     
     return (
-        <div>
+        <div className='cart'>
             
              <h2>bookmarked Blogs:{cart.length}</h2>
              <h3>{total}</h3>
