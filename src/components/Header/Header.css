@@ -26,3 +26,15 @@
     margin-left: 30px;
     border-radius: 50%;
 }
+@media only screen and (max-width: 500px ) {
+    .header{
+        width: 150%;
+    }
+    .header nav img{
+        
+        margin-left: 500px;
+    }
+    .header nav a{
+      
+    }
+}
