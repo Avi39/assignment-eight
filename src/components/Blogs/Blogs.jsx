@@ -4,7 +4,8 @@ import Cart from '../Cart/Cart';
 import './Blogs.css';
 const Blogs = () => {
     const [blogInfos,setBlogInfos] = useState([]);
-    const [cart,setCart] = useState([])
+    const [cart,setCart] = useState([]);
+    const[minute,setMinute] = useState([]);
     useEffect(()=>{
         fetch('data.json')
         .then(res =>res.json())
@@ -15,6 +16,10 @@ const Blogs = () => {
         const newCart =[...cart,blog];
         setCart(newCart);
     }
+    const handleAddToMinute = (min) =>{
+        const newMinute =[...minute,min];
+        setMinute(newMinute);
+    }
 
     return (
         <div className='blog-container'>
@@ -24,6 +29,7 @@ const Blogs = () => {
                         key={blogInfo.id}
                         blogInfo = {blogInfo}
                         handleAddToCart={handleAddToCart}
+                        handleAddToMinute={handleAddToMinute}
                     ></Bloginfo>)
                 }
             </div>

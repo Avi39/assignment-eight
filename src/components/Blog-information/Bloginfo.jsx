@@ -6,6 +6,7 @@ import './Bloginfo.css';
 const Bloginfo = (props) => {
     const {cover_picture,author_picture,author_name,title,date,time} = props.blogInfo
     const handleAddToCart = props.handleAddToCart;
+    const handleAddToMinute = props.handleAddToMinute;
     return (
         <div className='blogInfo'>
             <img src={cover_picture} alt="" />
@@ -25,7 +26,7 @@ const Bloginfo = (props) => {
                 </div>
             </div>
             <h2>{title}</h2>
-            <a href="">mark as read</a>
+            <button onClick={()=>handleAddToMinute(props.blogInfo)} href="">mark as read</button>
         </div>
     );
 };

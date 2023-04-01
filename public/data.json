@@ -6,7 +6,7 @@
     "author_name": "Holder Duncan",
     "title": "How to get your first job as a self-taught programmer",
     "date": "Thu Apr 05",
-    "time": "02",
+    "time": 2,
     "address": "554 Dewey Place, Websterville, Pennsylvania, 9286"
   },
   {
@@ -16,7 +16,7 @@
     "author_name": "Elba West",
     "title": "How to Write Code",
     "date": "Thu Nov 17",
-    "time": "05",
+    "time": 5,
     "address": "216 Richmond Street, Waterford, Ohio, 9326"
   },
   {
@@ -26,7 +26,7 @@
     "author_name": "Odom Tyson",
     "title": "How to Fix Bug",
     "date": "Sun Sep 03",
-    "time": "08",
+    "time": 8,
     "address": "481 Loring Avenue, Wescosville, Kentucky, 4504"
   },
   {
@@ -36,7 +36,7 @@
     "author_name": "Bertie Aguirre",
     "title": "How To Build Function",
     "date": "Thu Oct 11",
-    "time": "10",
+    "time": 10,
     "address": "888 Frost Street, Ferney, American Samoa, 2383"
   }
   
