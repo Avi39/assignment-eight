@@ -5,6 +5,7 @@ import './Bloginfo.css';
 
 const Bloginfo = (props) => {
     const {cover_picture,author_picture,author_name,title,date,time} = props.blogInfo
+    const handleAddToCart = props.handleAddToCart;
     return (
         <div className='blogInfo'>
             <img src={cover_picture} alt="" />
@@ -18,7 +19,7 @@ const Bloginfo = (props) => {
                 <p>{time} min read</p>
                 </div>    
                 <div className='btn'>
-                <button>
+                <button onClick={()=>handleAddToCart(props.blogInfo)}>
                  <FontAwesomeIcon icon={faBookmark} />
                 </button> 
                 </div>
