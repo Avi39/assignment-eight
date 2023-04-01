@@ -26,7 +26,7 @@ const Bloginfo = (props) => {
                 </div>
             </div>
             <h2>{title}</h2>
-            <button onClick={()=>handleAddToMinute(props.blogInfo)} href="">mark as read</button>
+            <button style={{color:'blue',textDecoration:'underline'}} onClick={()=>handleAddToMinute(props.blogInfo)} href="">mark as read</button>
         </div>
     );
 };

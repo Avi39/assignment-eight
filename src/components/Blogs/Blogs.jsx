@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Bloginfo from '../Blog-information/Bloginfo';
 import Cart from '../Cart/Cart';
+import Minute from '../Minute/Minute';
 import './Blogs.css';
 const Blogs = () => {
     const [blogInfos,setBlogInfos] = useState([]);
@@ -35,6 +36,7 @@ const Blogs = () => {
             </div>
             <div className='bookmarked-cart'>
                <Cart cart ={cart}></Cart>
+               <Minute minute={minute}></Minute>
             </div>
         </div>
     );
