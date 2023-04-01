@@ -8,7 +8,7 @@ const Minute = ({minute}) => {
     }
     return (
         <div className='minute'>
-            <h2 style={{color:'#6047EC'}}>Spent time on read:{totalTime}</h2>
+            <h2 style={{color:'#6047EC'}}>Spent time on read: {totalTime} min</h2>
         </div>
     );
 };
