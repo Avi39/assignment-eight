@@ -13,8 +13,16 @@
 .author-info{
     display: flex;
 }
+.author-info .text p{
+     display: inline;
+     margin-left: 20px;
+}
 .author-info img{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.author-info .time{
+    padding-left: 400px;
+    
 }
